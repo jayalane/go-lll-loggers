@@ -5,6 +5,7 @@ go 1.20
 require (
 	github.com/jayalane/go-lll v0.0.0-20230511012124-03b6d80b5c2c
 	github.com/valyala/fasthttp v1.47.0
+	google.golang.org/grpc v1.55.0
 )
 
 require (
