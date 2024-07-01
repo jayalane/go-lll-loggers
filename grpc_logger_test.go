@@ -9,12 +9,9 @@ import (
 	"google.golang.org/grpc/grpclog"
 )
 
-func TestB(t *testing.T) {
-
+func TestB(_ *testing.T) {
 	ml := lll.Init("test", "network")
 	lb := New(ml)
 
 	grpclog.SetLoggerV2(lb)
-
-	// all good
 }

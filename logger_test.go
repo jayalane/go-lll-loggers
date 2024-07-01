@@ -9,8 +9,7 @@ import (
 	"github.com/valyala/fasthttp"
 )
 
-func TestA(t *testing.T) {
-
+func TestA(_ *testing.T) {
 	ml := lll.Init("test", "network")
 	lb := New(ml)
 
@@ -19,6 +18,4 @@ func TestA(t *testing.T) {
 	s.Logger = lb
 
 	s.Logger.Printf("Hi")
-
-	// all good
 }
